@@ -53,20 +53,20 @@ I designed the service around **two clear user flows**:
 ---
 
 ## 🏗️ System Architecture
+```
+Client (Browser)
+    ↓
+Cloudflare Tunnel
+    ↓
+Express Server (Colab)
+    ↓
+HTML (templates)
+    ↓
+Static JS Data (/static)
+    ↓
+Client-side Rendering
 
-- Client (Browser)
-    ↓
-- Cloudflare Tunnel
-    ↓
-- Express Server (Colab)
-    ↓
-- HTML (templates)
-    ↓
-- Static JS Data (/static)
-    ↓
-- Client-side Rendering
-
----
+```
 
 ## ⚙️ Tech Stack
 
