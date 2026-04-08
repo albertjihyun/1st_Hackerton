@@ -65,7 +65,6 @@ HTML (templates)
 Static JS Data (/static)
     ↓
 Client-side Rendering
-
 ```
 
 ## ⚙️ Tech Stack
